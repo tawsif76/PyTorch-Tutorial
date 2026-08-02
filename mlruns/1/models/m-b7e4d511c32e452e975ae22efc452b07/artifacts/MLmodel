@@ -1,0 +1,23 @@
+artifact_path: /kaggle/working/mlruns/1/models/m-b7e4d511c32e452e975ae22efc452b07/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.13
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.10.0+cu128
+mlflow_version: 3.15.0
+model_id: m-b7e4d511c32e452e975ae22efc452b07
+model_size_bytes: 17980573
+model_uuid: m-b7e4d511c32e452e975ae22efc452b07
+prompts: null
+run_id: e74ea27a109042509c8dfb7430bd94a9
+utc_time_created: '2026-08-02 11:36:45.921842'
